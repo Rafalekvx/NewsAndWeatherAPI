@@ -1,0 +1,6 @@
+﻿{
+  "ConnectionStrings": {
+    "LocalDB": "***REMOVED***",
+    "ConnectedDB": "***CONNECTION STRING TO YOUR DATABASE***"
+  }
+}
