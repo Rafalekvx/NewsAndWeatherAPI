@@ -20,6 +20,8 @@ To use the NewsAndWeatherAPI, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Rafalekvx/NewsAndWeatherAPI
+   ```
+   ```bash
    cd NewsAndWeatherAPI
    ```
 2. **Build and Run the Application:**
@@ -43,10 +45,12 @@ To use the NewsAndWeatherAPI, follow these steps:
 
    **This ConnectionStrings connection work only on debug in release change** `connectionStrings.json` **like below**
     ```json
+      {
       "ConnectionStrings": {
       "LocalDB": "your_database_connection_string",
       "ConnectedDB": "CONNECTION STRING TO YOUR DATABASE"
-      }
+         }
+       }
       ```
 
    - Ensure your database is set up and accessible.
