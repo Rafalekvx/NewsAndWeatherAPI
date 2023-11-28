@@ -1,6 +1,6 @@
 ﻿{
   "ConnectionStrings": {
-    "LocalDB": "***REMOVED***",
-    "ConnectedDB": "***CONNECTION STRING TO YOUR DATABASE***"
+    "LocalDB": "your_local_database_connection_string",
+    "ConnectedDB": "CONNECTION STRING TO YOUR DATABASE ON RELEASE"
   }
 }
