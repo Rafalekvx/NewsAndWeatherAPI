@@ -19,7 +19,7 @@ To use the NewsAndWeatherAPI, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/NewsAndWeatherAPI.git
+   git clone https://github.com/Rafalekvx/NewsAndWeatherAPI
    cd NewsAndWeatherAPI
    ```
 2. **Build and Run the Application:**
@@ -27,7 +27,7 @@ To use the NewsAndWeatherAPI, follow these steps:
    - Configure the necessary settings such as database connection strings and JWT secrets in the `appsettings.json` file.
    - Build and run the application.
 
-      **appsettings.json**
+      `appsettings.json`
       ```json
       {
         "ConnectionStrings": {
@@ -41,7 +41,7 @@ To use the NewsAndWeatherAPI, follow these steps:
       }
       ```
 
-   **This ConnectionStrings connection work only on debug in release change** ***connectionStrings.json*** **like below**
+   **This ConnectionStrings connection work only on debug in release change** `connectionStrings.json` **like below**
     ```json
       "ConnectionStrings": {
       "LocalDB": "your_database_connection_string",
@@ -56,6 +56,7 @@ To use the NewsAndWeatherAPI, follow these steps:
    - Locations to handle weather: `GET /api/locations`
    - User Registration: `POST /api/user/register`
    - User Login: `POST /api/user/login`
+   - And more - use `swagger/index.html` in debug to see all endpoints
 
 ## Dependencies
 
